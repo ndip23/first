@@ -1,0 +1,17 @@
+body{
+
+    border-color: aquamarine;
+    background-color: bisque;
+    padding: 10px;
+    
+}
+h1{
+    color: black;
+    text-align: left;   
+    display: flex;
+}
+.beef{
+    text-align: left;
+    font-style: arial;
+    text-align: left;
+}

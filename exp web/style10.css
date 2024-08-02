@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    height: 100%;
+}
+.first {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second {
+    width: 1250px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.left {
+    height: 450px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.text {
+    height: 400px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 25px 100px 85px 65px;
+}
+.s-text {
+    font-size: 1.7rem;
+}
+.facebook {
+    margin-bottom: 0.5rem;
+    font-size: 4rem;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+.right {
+    height: 450px;
+    width: 40%;
+}
+.last {
+    width: 400px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+.input {
+    width: 400px;
+    height: 350px;
+    margin: 55px 80px 10px 0px;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+#email {
+    height: 3rem;
+    width: 100%;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+    margin-top: 0.2rem;
+}
+#password {
+    width: 320px;
+    height: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 0 5px;
+    background: transparent;
+}
+.input {
+    border: 1px solid;
+}
+.login {
+    background-color: blue;
+    height: 3rem;
+    width: 200px;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+    margin-top: 0.2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+.forget {
+    height: 30px;
+    width: 100%;
+    font-size: 1rem;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+}
+.account {
+    background-color: #42b72a;
+    height: 3rem;
+    width: 100%;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+}

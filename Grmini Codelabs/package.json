@@ -1,0 +1,23 @@
+{
+  "name": "grmini-codelabs",
+  "version": "1.0.0",
+  "description": "Generate text from text-and-image input (multimodal)",
+  "main": "App.js",
+  "dependencies": {
+    "@google/generative-ai": "^0.8.0",
+    "dotenv": "^16.4.5",
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node App.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "type": "module"
+  },
+  "keywords": [
+    "Gemini"
+  ],
+  "author": "Sergius",
+  "license": "ISC"
+}
